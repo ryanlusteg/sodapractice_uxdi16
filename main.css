@@ -1,0 +1,42 @@
+body{
+  background: #EDB5BD;
+  color: FDF06F;
+  font-family: "Work Sans";
+
+}
+h1{
+  color: purple;
+  background-color: yellow;
+  text-align: right;
+}
+
+IMG {
+  max-width: 100%
+}
+
+.list li {
+  font-size: 22px;
+}
+
+.list {
+  width: 50%;
+  border: 2px solid purple;
+}
+
+.important{
+  font-weight: bold;
+  color: red;
+}
+
+.fake {
+  background: blue;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: #FFCC00;
+  }
+  img {
+    width: 100%;
+  }
+}
